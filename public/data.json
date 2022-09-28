@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "63348532af99c79b0c67ab60",
+    "picture": "https://d1e00ek4ebabms.cloudfront.net/production/420e7555-72a1-4843-8326-26e602b3700e.jpg",
+    "age": 14,
+    "name": "Football",
+    "details": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in North America and Oceania); gridiron football (specifically American football or Canadian football); Australian rules football; rugby union and rugby league; and Gaelic football.[1] These various forms of football share to varying extent common origins and are known as football codes."
+  },
+  {
+    "_id": "63348532b5d4f27814826d70",
+    "picture": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/10/22/Pictures/bangladesh-2019-india-icc-cricket-world-cup_0276d158-f473-11e9-a1e4-7f5be0e43c85.jpg",
+    "age": 16,
+    "name": "Cricket",
+    "details": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat and then running between the wickets, while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, and getting the ball to either wicket) and dismiss each batter (so they are out). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side either catching the ball after it is hit by the bat, but before it hits the ground, or hitting a wicket with the ball before a batter can cross the crease in front of the wicket. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information."
+  },
+  {
+    "_id": "633485328653d089365afe33",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Iran_men%27s_national_kabaddi_team_13970602000432636707284535394012_98208.jpg",
+    "age": 17,
+    "name": "Kabaddi",
+    "details": "Kabaddi is a contact team sport. Played between two teams of seven players, the objective of the game is for a single player on offence, referred to as a raider, to run into the opposing team's half of a court, touch out as many of their defenders as possible, and return to their own half of the court, all without being tackled by the defenders, and in a single breath.[2] Points are scored for each player tagged by the raider, while the opposing team earns a point for stopping the raider. Players are taken out of the game if they are touched or tackled, but are brought back in for each point scored by their team from a tag or tackle."
+  },
+  {
+    "_id": "633485322f9ad98fcaf10edb",
+    "picture": "https://cdn.hswstatic.com/gif/chess-4.jpg",
+    "age": 20,
+    "name": "Chess",
+    "details": "Chess is a board game for two players. It is sometimes called Western chess or international chess to distinguish it from related games such as xiangqi and shogi. The current form of the game emerged in Spain and the rest of Southern Europe during the second half of the 15th century after evolving from chaturanga, a similar but much older game of Indian origin. Today, chess is one of the world's most popular games, played by millions of people worldwide."
+  },
+  {
+    "_id": "6334853217e00a724d4bbb64",
+    "picture": "https://athleticsweekly.com/wp-content/uploads/2021/04/Long-jump-adobe-stock.jpg",
+    "age": 30,
+    "name": "Long jump",
+    "details": "The long jump is a track and field event in which athletes combine speed, strength and agility in an attempt to leap as far as possible from a takeoff point. Along with the triple jump, the two events that measure jumping for distance as a group are referred to as the horizontal jumps. This event has a history in the ancient Olympic Games and has been a modern Olympic event for men since the first Olympics in 1896 and for women since 1948."
+  },
+  {
+    "_id": "63348532873be5c5f3424d44",
+    "picture": "https://img.olympicchannel.com/images/image/private/t_16-9_3200/primary/piultz6nngltq541xmju",
+    "age": 24,
+    "name": "Swimming",
+    "details": "female and male swimmers wore body suits, which increased resistance and slowed them down. As the sport progressed, swimwear become more hydrodynamic. Suits began to be made from materials such as Lycra, which reduced drag and, as a result, reduced lap times."
+  }
+]

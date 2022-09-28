@@ -1,0 +1,59 @@
+.cart-container{
+    background-color: #3388fff5;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 20px;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.person img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+.body-mess{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.break{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+.break button{
+    padding: 5px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.practice-time, .break-time{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.completed-btn{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

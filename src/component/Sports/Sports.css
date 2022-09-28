@@ -1,0 +1,25 @@
+.sports-container{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    position: relative;
+}
+.sports-container img{
+    width: 324px;
+    height: 200px;
+    border-radius: 0px 10px;
+}
+.info{
+    margin: 0px 10px;
+    padding-bottom: 30px;
+}
+.btn-cart{
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 0;
+}
