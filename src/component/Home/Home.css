@@ -10,3 +10,14 @@
 .sports-card{
     margin: 20px 40px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
