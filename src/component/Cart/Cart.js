@@ -7,12 +7,6 @@ const Cart = ({ cart, sports }) => {
         localStorage.setItem("breakBtn", e)
         setBreakBtn(localStorage.getItem("breakBtn"))
     }
-    // let initialTime = 0;
-    // cart.forEach((e) => {
-    //     const time = e.time;
-    //     initialTime = initialTime + time;
-    //     })
-    // cart.map(e => )
     const complete = () => {
         swal("Good job!", "Completed Activity!", "success");
     }
@@ -43,7 +37,7 @@ const Cart = ({ cart, sports }) => {
                 <h2>Add A Break</h2>
                 <div className="break">
                     {
-                        sports.map(e => <button onClick={() => breakCount(e.break)}>{e.break}</button>)
+                        sports.map(e => <button key={e._id} onClick={() => breakCount(e.break)}>{e.break}</button>)
                     }
                 </div>
             </div>

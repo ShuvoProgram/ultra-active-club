@@ -13,9 +13,6 @@ const Home = () => {
     }, [])
 
     const addToCart = (add) => {
-        // let newCart = [];
-        // newCart = [...carts, add]
-        console.log(add)
         localStorage.setItem("practice", carts + add)
         setCarts(parseInt(localStorage.getItem("practice")));
     }

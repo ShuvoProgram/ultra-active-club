@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sports.css';
 
-const Sports = ({sport, addToCart, cart}) => {
+const Sports = ({sport, addToCart}) => {
     const {picture, name, age, details, time} = sport;
     return (
         <div className='sports-container'>
