@@ -10,6 +10,23 @@
 .sports-card{
     margin: 20px 40px;
 }
+.interview{
+    text-align: center;
+    color: blueviolet;
+}
+.question{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.card-question{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+.card-question h2{
+    color: blueviolet;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container{
@@ -17,6 +34,10 @@
         flex-direction: column-reverse;
     }
     .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .question{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }

@@ -2,7 +2,8 @@ import React from 'react';
 import './Sports.css';
 
 const Sports = ({sport, addToCart}) => {
-    const { picture, name, age, details, time} = sport || {};
+    const {picture, name, age, details, time} = sport;
+    console.log(sport)
     return (
         <div className='sports-container'>
             <img src={picture} alt="" />

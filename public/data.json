@@ -24,7 +24,7 @@
     "name": "Kabaddi",
     "details": "Kabaddi is a contact team sport. Played between two teams of seven players, the objective of the game is for a single player on offence, referred to as a raider, to run into the opposing team's half of a court, touch out as many of their defenders as possible, and return to their own half of the court, all without being tackled by the defenders, and in a single breath.[2] Points are scored for each player tagged by the raider, while the opposing team earns a point for stopping the raider. Players are taken out of the game if they are touched or tackled, but are brought back in for each point scored by their team from a tag or tackle.",
     "time": 30,
-    "break": 10
+    "break": 30
   },
   {
     "_id": "633485322f9ad98fcaf10edb",
@@ -33,7 +33,7 @@
     "name": "Chess",
     "details": "Chess is a board game for two players. It is sometimes called Western chess or international chess to distinguish it from related games such as xiangqi and shogi. The current form of the game emerged in Spain and the rest of Southern Europe during the second half of the 15th century after evolving from chaturanga, a similar but much older game of Indian origin. Today, chess is one of the world's most popular games, played by millions of people worldwide.",
     "time": 30,
-    "break": 10
+    "break": 40
   },
   {
     "_id": "6334853217e00a724d4bbb64",
@@ -42,7 +42,7 @@
     "name": "Long jump",
     "details": "The long jump is a track and field event in which athletes combine speed, strength and agility in an attempt to leap as far as possible from a takeoff point. Along with the triple jump, the two events that measure jumping for distance as a group are referred to as the horizontal jumps. This event has a history in the ancient Olympic Games and has been a modern Olympic event for men since the first Olympics in 1896 and for women since 1948.",
     "time": 30,
-    "break": 10
+    "break": 50
   },
   {
     "_id": "63348532873be5c5f3424d44",
@@ -51,6 +51,6 @@
     "name": "Swimming",
     "details": "female and male swimmers wore body suits, which increased resistance and slowed them down. As the sport progressed, swimwear become more hydrodynamic. Suits began to be made from materials such as Lycra, which reduced drag and, as a result, reduced lap times.",
     "time": 30,
-    "break": 10
+    "break": 60
   }
 ]
