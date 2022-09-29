@@ -1,22 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import swal from 'sweetalert';
 import './Cart.css';
 const Cart = ({ cart, sports }) => {
-    const [sport, setSport] = useState([])
-    // console.log(sport)
+    const [breakBtn, setBreakBtn] = useState(localStorage.getItem("breakBtn") ? localStorage.getItem("breakBtn") : 0);
     // console.log(cart)
-    // const su = sports.map(e => e.break)
-    // console.log(su);
-    let initialBreak = 0;
-    const breakCount = (uniqueID) => {
-        const exists = cart.find(b => b.id === uniqueID.id);
-        initialBreak = exists;
+    console.log(sports)
+    const breakCount = (e) => {
+        localStorage.setItem("breakBtn", e)
+        setBreakBtn(localStorage.getItem("breakBtn"))
     }
     let initialTime = 0;
     cart.forEach((e) => {
         const time = e.time;
         initialTime = initialTime + time;
-    })
+        })
     const complete = () => {
         swal("Good job!", "Completed Activity!", "success");
     }
@@ -47,17 +44,8 @@ const Cart = ({ cart, sports }) => {
                 <h2>Add A Break</h2>
                 <div className="break">
                     {
-                        cart.map(e => {
-                            return(
-                                <button onClick={() => breakCount(e._id)}>{e.break}s</button>
-                            )
-                        })
+                        sports.map(e => <button onClick={() => breakCount(e.break)}>{e.break}</button>)
                     }
-                    {/* <button onClick={breakCount}>{su[0]}</button>
-                    <button>{su[1]}</button>
-                    <button>{su[2]}</button>
-                    <button>{su[3]}</button>
-                    <button>{su[4]}</button> */}
                 </div>
             </div>
             <div className="practice-details">
@@ -68,7 +56,7 @@ const Cart = ({ cart, sports }) => {
                 </div>
                 <div className="break-time">
                     <span>Break Time</span>
-                    <span>{initialBreak}</span>
+                    <span>{breakBtn} Sec</span>
                 </div>
             </div>
             <button className='completed-btn' onClick={() => complete()}>Activity Completed</button>

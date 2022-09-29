@@ -11,8 +11,11 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setSports(data))
     }, [])
+
     const addToCart = (add) => {
-        setCarts([...carts, add])
+        let newCart = [];
+        newCart = [...carts, add]
+        setCarts(newCart);
     }
     return (
         <div className='container'>
