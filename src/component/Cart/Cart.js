@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import swal from 'sweetalert';
+import profile from '../../image/profile.jpg'
 import './Cart.css';
 const Cart = ({ cart, sports }) => {
     const [breakBtn, setBreakBtn] = useState(localStorage.getItem("breakBtn") ? localStorage.getItem("breakBtn") : 0);
@@ -13,7 +14,7 @@ const Cart = ({ cart, sports }) => {
     return (
         <div className='cart-container'>
             <div className="person">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Rory_Kinnear_2012_%28cropped%29.jpg/143px-Rory_Kinnear_2012_%28cropped%29.jpg" alt="" />
+                <img src={profile} alt="" />
                 <div className="name-loc">
                     <h2>Shuvo khan</h2>
                     <address>Dhaka, Bangladesh</address>
