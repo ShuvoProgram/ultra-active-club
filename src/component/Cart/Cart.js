@@ -3,17 +3,16 @@ import swal from 'sweetalert';
 import './Cart.css';
 const Cart = ({ cart, sports }) => {
     const [breakBtn, setBreakBtn] = useState(localStorage.getItem("breakBtn") ? localStorage.getItem("breakBtn") : 0);
-    // console.log(cart)
-    console.log(sports)
     const breakCount = (e) => {
         localStorage.setItem("breakBtn", e)
         setBreakBtn(localStorage.getItem("breakBtn"))
     }
-    let initialTime = 0;
-    cart.forEach((e) => {
-        const time = e.time;
-        initialTime = initialTime + time;
-        })
+    // let initialTime = 0;
+    // cart.forEach((e) => {
+    //     const time = e.time;
+    //     initialTime = initialTime + time;
+    //     })
+    // cart.map(e => )
     const complete = () => {
         swal("Good job!", "Completed Activity!", "success");
     }
@@ -52,7 +51,7 @@ const Cart = ({ cart, sports }) => {
                 <h2>Practice Details</h2>
                 <div className="practice-time">
                     <span>Practice Time</span>
-                    <span>{initialTime} Sec</span>
+                    <span>{cart} Sec</span>
                 </div>
                 <div className="break-time">
                     <span>Break Time</span>

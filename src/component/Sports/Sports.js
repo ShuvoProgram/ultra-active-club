@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sports.css';
 
-const Sports = ({sport, addToCart}) => {
+const Sports = ({sport, addToCart, cart}) => {
     const {picture, name, age, details, time} = sport;
     return (
         <div className='sports-container'>
@@ -12,7 +12,7 @@ const Sports = ({sport, addToCart}) => {
                 <h4>For Age: {age}</h4>
                 <h4>Time Required: {time}s</h4>
             </div>
-            <button className='btn-cart' onClick={() => addToCart(sport)}>Add To Cart</button>
+            <button className='btn-cart' onClick={() => addToCart(time)}>Add To Cart</button>
         </div>
     );
 };

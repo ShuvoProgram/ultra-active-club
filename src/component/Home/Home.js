@@ -5,7 +5,7 @@ import './Home.css';
 
 const Home = () => {
     const [sports, setSports] = useState([]);
-    const [carts, setCarts] = useState([]);
+    const [carts, setCarts] = useState(parseInt(localStorage.getItem("practice")) ? parseInt(localStorage.getItem("practice")) : 0);
     useEffect(() => {
         fetch('data.json')
         .then(res => res.json())
@@ -13,9 +13,11 @@ const Home = () => {
     }, [])
 
     const addToCart = (add) => {
-        let newCart = [];
-        newCart = [...carts, add]
-        setCarts(newCart);
+        // let newCart = [];
+        // newCart = [...carts, add]
+        console.log(add)
+        localStorage.setItem("practice", carts + add)
+        setCarts(parseInt(localStorage.getItem("practice")));
     }
     return (
         <div className='container'>
@@ -23,7 +25,7 @@ const Home = () => {
                 <h3>Selected Todays Sports</h3>
                 <div className="card">
                     {
-                        sports.map(sport => <Sports sport={sport} addToCart={addToCart} key={sport._id}></Sports>)
+                        sports.map(sport => <Sports cart={carts} sport={sport} addToCart={addToCart} key={sport._id}></Sports>)
                     }
                 </div>
                 <h1 className='interview'>Interview Question</h1>
